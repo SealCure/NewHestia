@@ -65,9 +65,7 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/marine_corps/o2,
-		/datum/mil_rank/marine_corps/o3,
 		/datum/mil_rank/fleet/o2,
-		/datum/mil_rank/fleet/o3,
 		/datum/mil_rank/civ/contractor
 	)
 	min_skill = list(	SKILL_MEDICAL       = SKILL_ADEPT,

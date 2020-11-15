@@ -27,8 +27,7 @@
 		/datum/mil_branch/fleet
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o4,
-		/datum/mil_rank/fleet/o5
+		/datum/mil_rank/fleet/o4
 	)
 
 /datum/job/cmo
@@ -38,9 +37,7 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o4,
-		/datum/mil_rank/fleet/o5,
-		/datum/mil_rank/marine_corps/o4,
-		/datum/mil_rank/marine_corps/o5
+		/datum/mil_rank/marine_corps/o4
 	)
 
 /datum/job/chief_engineer
@@ -49,10 +46,10 @@
 		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/marine
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
-		/datum/mil_rank/marine_corps/o2,
-		/datum/mil_rank/marine_corps/o3
+		/datum/mil_rank/fleet/o4,
+		/datum/mil_rank/marine_corps/o3,
+		/datum/mil_rank/marine_corps/o4
 	)
 
 /datum/job/hos
@@ -61,10 +58,10 @@
 		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/cos/marine
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
-		/datum/mil_rank/marine_corps/o2,
-		/datum/mil_rank/marine_corps/o3
+		/datum/mil_rank/fleet/o4,
+		/datum/mil_rank/marine_corps/o3,
+		/datum/mil_rank/marine_corps/o4
 	)
 
 /datum/job/sea/marine
@@ -75,7 +72,6 @@
 		/datum/mil_branch/marine_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/e8_alt,
 		/datum/mil_rank/marine_corps/e9,
 		/datum/mil_rank/marine_corps/e9_alt,
 		/datum/mil_rank/marine_corps/o1,
@@ -196,10 +192,10 @@
 		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/medical/senior/marine
 	)
 	allowed_ranks = list(
+		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
-		/datum/mil_rank/fleet/o4,
+		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/marine_corps/o3,
-		/datum/mil_rank/marine_corps/o4,
 		/datum/mil_rank/civ/contractor
 	)
 
@@ -254,8 +250,7 @@
 		/datum/mil_branch/fleet
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o3,
-		/datum/mil_rank/fleet/o4
+		/datum/mil_rank/fleet/o3
 	)
 
 /datum/job/scientist
